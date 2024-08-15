@@ -18,9 +18,7 @@ function App() {
   const namework = useRef(null);
   useGSAP(() => {
     const spans = gsap.utils.toArray(".span_container span");
-    if (img_container_bottom) {
-      console.log(img_container_bottom.current?.offsetWidth);
-    }
+
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: namework.current,
