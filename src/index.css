@@ -1,0 +1,56 @@
+@font-face {
+  font-family: mango_grotesque;
+  src: url("../public/fonts/MangoGrotesque-Bold.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5efdf;
+  font-weight: 400;
+  color: #111013;
+}
+.name_and_work {
+  margin: 100vh auto;
+  font-family: mango_grotesque;
+  width: 80%;
+  font-size: 135px;
+}
+.img_container {
+  background-image: url("../public/imgs/me-bw.webp");
+  height: 300px;
+  width: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 10%;
+}
+.img_container2 {
+  background-position: center 75%;
+}
+.name_and_me,
+.work_and_me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 5rem;
+}
+
+.img_container_top {
+  transform: translateX(-35%);
+}
+.img_container_bottom {
+  transform: translateX(16%) translateY(-32%);
+}
+
+.span_container {
+  line-height: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.span_container span {
+  display: inline-block;
+  transform: translateY(100%);
+}
